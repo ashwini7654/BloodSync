@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Manage Donors || Bloodsync</title>
+<link rel="stylesheet" href="../../css/style.css" />
+
+</head>
+<body>
+    <header>
+        <h1>Manage Donors</h1>
+        <nav>
+          <ul>
+            <li><a href="admin_dashboard.html"> Dashbord</a></li>
+            <li><a href="manage_request.html"> Blood Requests</a></li>
+            <li><a href="blood_stock.html"> Blood Stock</a></li>
+            <li><a href="../Home.html">Logout</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <h2>Registered Donors</h2>
+        <table id="donorTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Blood Type</th>
+              <th>City</th>
+              <th>Contact</th>
+              <th>Blood Units</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="donorTableBody">
+            <!-- Donor data will be populated here -->
+          </tbody>
+      </section>
+      <script src="../../javascript/manage_donors.js"></script>
+      <footer>
+        <p>&copy; 2023 Bloodsync. All rights reserved.</p>
+      </footer>
+</body>
+</html>

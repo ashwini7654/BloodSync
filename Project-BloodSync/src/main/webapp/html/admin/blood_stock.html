@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Blood Stock || Bloodsync</title>
+<link rel="stylesheet" href="../../css/style.css" />
+
+</head>
+<body>
+    <header>
+        <h1> Blood Stock</h1>
+        <nav>
+          <ul>
+            <li><a href="admin_dashboard.html"> Dashbord</a></li>
+            <li><a href="manage_donors.html"> Blood Donors</a></li>
+            <li><a href="manage_request.html">  Blood Requests</a></li>
+            <li><a href="../Home.html">Logout</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <h2>Blood Stock</h2>
+        <table id="donorTable">
+          <thead>
+            <tr>
+              
+              <th>Blood Type</th>
+              <th>Available Units</th>
+              <th>Donated Units</th>
+              <th>Total Units</th>
+            </tr>
+          </thead>
+          <tbody id="stockTableBody">
+            <!-- blood stock data will be populated here -->
+          </tbody>
+      </section>
+      <script src="../../javascript/blood_stock.js"></script>
+      <footer>
+        <p>&copy; 2023 Bloodsync. All rights reserved.</p>
+      </footer>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Manage Blood Requests || Bloodsync</title>
+<link rel="stylesheet" href="../../css/style.css" />
+
+</head>
+<body>
+    <header>
+        <h1>Manage Blood Request</h1>
+        <nav>
+          <ul>
+            <li><a href="admin_dashboard.html"> Dashbord</a></li>
+            <li><a href="manage_donors.html"> Blood Donors</a></li>
+            <li><a href="blood_stock.html"> Blood Stock</a></li>
+            <li><a href="../Home.html">Logout</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="content">
+        <h2>All Blood Request </h2>
+        <table id="donorTable">
+          <thead>
+            <tr>
+              <th>Request ID</th>
+              <th>Hospital</th>
+              <th>Blood Type</th>
+              <th>Requested Units</th>
+              <th>Urgency</th>
+              <th>Status Units</th>
+              <th>Request Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="requestTableBody">
+            <!-- Donor data will be populated here -->
+          </tbody>
+      </section>
+      <script src="../../javascript/manage_requests.js"></script>
+      <footer>
+        <p>&copy; 2023 Bloodsync. All rights reserved.</p>
+      </footer>
+
+</body>
+</html>

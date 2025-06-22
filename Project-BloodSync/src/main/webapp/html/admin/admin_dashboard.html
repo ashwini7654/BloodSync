@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin Dashboard |Bloodsync</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Admin Dashboard</h1>
+      <nav>
+        <ul>
+          <li><a href="manage_donors.html">Manage Donors</a></li>
+          <li><a href="manage_request.html"> Blood Requests</a></li>
+          <li><a href="blood_stock.html"> Blood Stock</a></li>
+          <li><a href="../Home.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="dashboard">
+      <div class="card">
+        <h3>Total Donors</h3>
+        <p id="total_donors">Loading...</p>
+      </div>
+      <div class="card">
+        <h3>Pending Blood Requests</h3>
+        <p id="blood_requests">Loading...</p>
+      </div>
+      <div class="card">
+        <h3>Blood Stock Available</h3>
+        <p id="stock_available">Loading...</p>
+      </div>
+    </section>
+    <script src="../../javascript/admin_dashboard.js"></script>
+    <footer>
+      <p>&copy; 2023 Bloodsync. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
